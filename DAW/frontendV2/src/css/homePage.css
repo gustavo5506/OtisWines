@@ -1,0 +1,75 @@
+.home-page {
+    color: #333;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .banner {
+    text-align: center;
+    background-color: #462b38;
+    color: #fff;
+    padding: 60px 20px;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .banner p {
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+  }
+  
+  .explore-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #5b3748;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #744857;
+  }
+  
+  .sections {
+    padding: 40px 20px;
+  }
+  
+  .sections h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #462b38;
+  }
+  
+  .wine-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .packs-section .wine-card-container {
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .tintos-section .wine-card-container {
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .brancos-section .wine-card-container {
+    border-radius: 8px;
+    padding: 20px;
+  }

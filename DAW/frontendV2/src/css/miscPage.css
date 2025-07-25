@@ -1,0 +1,36 @@
+.accesories-page {
+    color: #333;
+    min-height: calc(100vh - 3rem);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .accesories-header {
+    text-align: center;
+    background-color: #462b38;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  
+  .accesories-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .accesories-header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .accesories-list {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    flex: 1;
+  }
+  
+  .accesories-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
